@@ -1,0 +1,24 @@
+.Box_Header {
+    background: #1E063FB2;
+    margin-bottom: 118px;
+    .Nav_Header {
+        width: 1160px;
+        margin: auto;
+        height: 100px;
+        // background: #1E063FB2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .Item_Header{
+            ul{
+                display: flex;
+                list-style-type: none;
+                gap: 30px;
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+
+}

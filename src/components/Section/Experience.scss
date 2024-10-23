@@ -1,0 +1,91 @@
+.Box_Experience {
+    width: 1160px;
+    margin: auto;
+    position: relative;
+    // background-color: #763CAC;
+    margin-bottom: 127px;
+    .Experience_Gradient {
+        height: 700px;
+        width: 615px;
+        position: absolute;
+        background: radial-gradient(50% 50% at 50% 50%, #763cac85 0%, rgba(50, 15, 133, 0) 100%);
+        z-index: 1;
+        left: 264px;
+    }
+
+    .Title_Experience {
+        margin-bottom: 44px;
+
+        span {
+            font-size: 40px;
+            font-weight: 400px;
+        }
+    }
+
+    .Box_Item_Experience {
+        height: 406px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+
+        .Box_ {
+            width: 560.89px;
+            height: 192.68px;
+            top: 984px;
+            left: 148px;
+            gap: 0px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+            background: linear-gradient(110.49deg, #130428 19.95%, #251043 67.64%, #38126D 107.08%, #261045 156.61%, #190634 183.21%);
+            display: flex;
+            gap: 43px;
+            border: 1px solid #693B93;
+            align-items: center;
+            border-radius: 15px;
+            box-shadow: 0px -2px 2px #bebebe, 0px -3px 0px #ffffff;
+
+            .Img_Experience {
+                height: 90px;
+                width: 90px;
+                margin-left: 55px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: fill;
+                }
+            }
+
+            .Content_Experience {
+                .Title_Content_Experience {
+                    font-size: 26px;
+                    font-weight: 600px;
+                }
+
+                .Span_Content_Experience {
+                    width: 228px;
+                    line-height: 0.8;
+                    margin-bottom: 23px;
+
+                    span {
+                        font-size: 8px;
+
+                    }
+                }
+
+                .Button_Content_Experience {
+                    button {
+                        color: white;
+                        width: 118px;
+                        height: 33px;
+                        border-radius: 10px;
+                        border: 1px solid #693B93;
+                        background-color: #683b9339;
+                    }
+                }
+            }
+
+        }
+    }
+
+}

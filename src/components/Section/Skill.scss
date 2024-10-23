@@ -1,0 +1,52 @@
+.Box_Skill {
+    width: 895px;
+    margin: auto;
+    margin-bottom: 120px;
+
+    .Title_Skill {
+        width: 663px;
+        margin: auto;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 50px;
+        p {
+            font-size: 17px !important;
+        }
+
+        a {
+            color: #A362FF;
+
+        }
+    }
+
+    .Item_Skill {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 31px;
+        .Skill_ {
+            width: 200px;
+            .Skill_Img {
+                margin: auto;
+                height: 100px;
+                width: 100px;
+                background-color: rgba(255, 255, 255, 0.093);
+                border-radius: 20px;
+                padding: 40px;
+                margin-bottom: 10px;
+                ._box {   
+                    margin: auto;
+                    height: 100px;
+                    width: 100px;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .Skill_Name{
+                text-align: center;
+                font-size: 24px;
+            }
+        }
+    }
+}

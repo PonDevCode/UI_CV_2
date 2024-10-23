@@ -1,0 +1,33 @@
+.Contact {
+    width: 1143px;
+    height: 275.27px;
+    margin: auto;
+
+    .Box_Contact {
+        width: 703px;
+        height: 275px;
+
+        .Title_Contact {
+            height: 45px;
+            font-size: 25px;
+            margin-bottom: 52px;
+        }
+
+        .Content_Contact {
+            font-size: 15px;
+            // line-height: 3;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+
+        .Footer_Contact {
+            gap: 27px;
+            display: flex;
+        }
+
+    }
+
+
+}

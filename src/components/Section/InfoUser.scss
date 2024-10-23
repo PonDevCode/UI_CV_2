@@ -1,0 +1,108 @@
+.Box_Info {
+    width: 1160px;
+    margin: auto;
+    padding: 4px;
+    position: relative;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 117px;
+
+    .Gradient {
+        height: 431px;
+        width: 379px;
+        position: absolute;
+        background: radial-gradient(50% 50% at 50% 50%, #763CAC -0%, #320f8500 100%);
+        z-index: 1;
+        left: 100px;
+
+    }
+
+    .Img_Info {
+        width: 362px;
+        height: 467px;
+        border-radius: 24px;
+        padding: 8px;
+        background-color: #ffffff0c;
+        position: relative;
+        z-index: 99;
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 24px;
+            object-fit: cover;
+
+        }
+    }
+
+    .Content_Info {
+        color: white;
+        margin-top: 21px;
+        width: calc(1100px - 363px);
+        .User_Name {
+            display: flex;
+            margin-bottom:  42px;
+
+            span {
+                margin-right: 10px;
+                font-size: 14px;
+            }
+        }
+
+        .Title_Content {
+            transition-delay: 0.2s;
+            width: 100%;
+            font-size: 50px;
+            .Animation {
+                background-clip: text;
+                -webkit-background-clip: text; 
+                color: white !important;
+            }
+
+            .text-Animation {
+                display: inline-block;
+                overflow: hidden; /* Ẩn phần văn bản không hiển thị */
+                white-space: nowrap; /* Không xuống dòng */
+                border-right: 8px solid; /* Đường viền bên phải */
+                animation: typing 8s steps(40) infinite, blinking 1s infinite;
+            }
+        }
+        .Content_{
+            margin-top: 11px;
+            font-size: 18px;
+            .Content_Button{
+                button{
+                    margin-top: 17px;
+                    padding: 7px 15px;
+                    font-size: 14px;
+                    border-radius: 10px;
+                    border: 1px solid #693B93;
+                    background: #2C1250;
+                    color: white;
+
+                    
+                }
+            }
+        }
+
+
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinking {
+    0%,90% {
+        border-color: transparent; /* Ẩn đường viền */
+    }
+    50% {
+        border-color: white; /* Hiện đường viền */
+    }
+}

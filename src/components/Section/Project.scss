@@ -1,0 +1,84 @@
+.Box_Project {
+    width: 1228.71px;
+    height: 729px;
+    opacity: 0px;
+    margin: auto;
+    position: relative;
+
+    .Project_Gradient {
+        height: 700px;
+        width: 615px;
+        position: absolute;
+        background: radial-gradient(50% 50% at 50% 50%, rgb(118 60 172 / 59%) 0%, rgba(50, 15, 133, 0) 100%);
+        z-index: 1;
+        right: 0px;
+
+    }
+
+    .Project_Gradient_2 {
+        height: 700px;
+        width: 615px;
+        position: absolute;
+        background: radial-gradient(50% 50% at 50% 50%, rgb(118 60 172 / 59%) 0%, rgba(50, 15, 133, 0) 100%);
+
+        z-index: 1;
+        right: 205px;
+
+    }
+
+    .Project_1 {
+        position: absolute;
+        width: 637px;
+        height: 333px;
+        top: 220px;
+        z-index: 2;
+
+        .Title_Project {
+            line-height: 0.5;
+            margin-bottom: 50px;
+
+            span {
+                color: #9857D3;
+            }
+
+        }
+
+        .Box_Project_Content {
+            width: 600px;
+           background: radial-gradient(50% 50% at 50% 50%, rgb(118 60 172 / 59%) 0%, rgba(50, 15, 133, 0) 100%);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 32px;
+        }
+        .Icon_Content{
+            display: flex;
+            gap: 10px;
+            svg {
+                font-size: 32px;
+            }
+        }
+
+    }
+
+    .Project_2 {
+        position: absolute;
+        width: 573px;
+        height: 341px;
+        top: 200px;
+        left: 590px;
+        z-index: 1;
+        border-radius: 10px;
+
+        // opacity: 0.7;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+
+        }
+    }
+
+
+}
